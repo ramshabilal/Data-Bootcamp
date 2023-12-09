@@ -1,6 +1,7 @@
 # Example Streamlit App for Flight Price Prediction
 import streamlit as st
 import joblib
+import pandas as pd
 
 # Load the model
 model = joblib.load('flight_price_predictor.pkl')
